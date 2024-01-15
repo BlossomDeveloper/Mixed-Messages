@@ -8,5 +8,5 @@ const quotes = ["It's already yours.", 'Once you make a decision, the universe c
 
 const randomQuote = Math.floor(Math.random() * (quotes.length));
 
-console.log(quotes[randomQuote]);
+console.log('Your random message is: ' + quotes[randomQuote]);
 
